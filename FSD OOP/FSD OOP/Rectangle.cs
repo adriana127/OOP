@@ -27,7 +27,7 @@ namespace FSD_OOP
 
         public void Draw()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"The height is: {Height}, the width is: {Width}");
         }
 
         public void Scale(int scaling)

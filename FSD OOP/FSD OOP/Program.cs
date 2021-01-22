@@ -6,7 +6,11 @@ namespace FSD_OOP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Square square = new Square(5.5);
+
+            square.Draw();
+
+            Console.ReadLine();
         }
     }
 }
