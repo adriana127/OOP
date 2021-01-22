@@ -39,5 +39,11 @@ namespace FSD_OOP
             Position.Clear();
             Position.Add(new Point2D(Radius, Radius));
         }
+
+
+        public void Accept(IVisitor visitor)
+        {
+            visitor.VisitCircle(this);
+        }
     }
 }

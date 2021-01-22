@@ -6,6 +6,10 @@ namespace FSD_OOP
 {
     public interface IVisitor
     {
-        void Visit(IElement element);
+        void VisitRectangle(Rectangle rectangle);
+        void VisitCircle(Circle circle);
+        void VisitSquare(Square square);
+
     }
+
 }
