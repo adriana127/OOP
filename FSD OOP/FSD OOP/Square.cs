@@ -6,7 +6,7 @@ namespace FSD_OOP
 {
     public class Square : Rectangle
     {
-        public Square(double height) : base(height, height)
+        public Square(double height, Color color) : base(height, height, color)
         {
 
         }
