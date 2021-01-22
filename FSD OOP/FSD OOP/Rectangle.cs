@@ -13,7 +13,7 @@ namespace FSD_OOP
         }
 
         public double Height { get; set; }
-        public double Width { get;set; }
+        public double Width { get; set; }
 
         public int NumberOfAngles => 4;
 
