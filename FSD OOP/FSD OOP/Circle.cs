@@ -36,7 +36,7 @@ namespace FSD_OOP
         {
             Radius *= scaling;
             Position.Clear();
-            Position.Add(new Point2D(Radius,Radius))
+            Position.Add(new Point2D(Radius, Radius));
         }
     }
 }
