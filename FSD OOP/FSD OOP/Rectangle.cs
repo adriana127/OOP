@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace FSD_OOP
 {
@@ -30,11 +29,11 @@ namespace FSD_OOP
 
         public void Draw()
         {
-            String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            const string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
             Console.Write("The rectangle has it's corners at: ");
 
-            for (int index = 0; index < NumberOfAngles; index++)
+            for (var index = 0; index < NumberOfAngles; index++)
             {
                 Console.Write($" {alphabet[index]}({Position[index].X},{Position[index].Y}), ");
             }

@@ -15,7 +15,7 @@ namespace FSD_OOP
         public static List<IColoredShape> CreateShapes()
         {
 
-            return new List<IColoredShape> { new Circle(3, Color.BLACK), new Rectangle(3, 5, Color.BLACK), new Square(4, Color.BLACK) };
+            return new List<IColoredShape> { new Circle(3, Color.Black), new Rectangle(3, 5, Color.Black), new Square(4, Color.Black) };
         }
         static void Main(string[] args)
         {
@@ -37,27 +37,27 @@ namespace FSD_OOP
                             case "1":
                                 {
                                     Console.Write("Height");
-                                    double height = Double.Parse(Console.ReadLine() ?? string.Empty);
+                                    var height = Double.Parse(Console.ReadLine() ?? string.Empty);
                                     Console.Write("Width");
-                                    double width = Double.Parse(Console.ReadLine() ?? string.Empty);
+                                    var width = Double.Parse(Console.ReadLine() ?? string.Empty);
 
-                                    shapesList.Add(new Rectangle(height, width, Color.BLACK));
+                                    shapesList.Add(new Rectangle(height, width, Color.Black));
                                     break;
                                 }
                             case "2":
                                 {
                                     Console.Write("Dimension");
-                                    double height = Console.Read();
-                                    shapesList.Add(new Square(height, Color.BLACK));
+                                    var height = Double.Parse(Console.ReadLine() ?? string.Empty);
+                                    shapesList.Add(new Square(height, Color.Black));
                                     break;
                                 }
-                                //case 3:
-                                // {​​
-                                // Console.Write("Radius");
-                                // double radius = Console.Read();
-                                // shapesList.Add(new Circle(radius));
-                                // break;
-                                // }​​
+                            case "3":
+                                {
+                                    Console.Write("Radius");
+                                    var radius = Double.Parse(Console.ReadLine() ?? string.Empty);
+                                    shapesList.Add(new Circle(radius, Color.Black));
+                                    break;
+                                }
                                 //case 4:
                                 // {​​
                                 // Console.Write("Radius");
