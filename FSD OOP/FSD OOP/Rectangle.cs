@@ -56,5 +56,9 @@ namespace FSD_OOP
                 new Point2D(0, 0), new Point2D(Height, 0), new Point2D(0, Width), new Point2D(Height, Width)
             };
         }
+        public void Accept(IVisitor visitor)
+        {
+            visitor.VisitRectangle(this);
+        }
     }
 }
