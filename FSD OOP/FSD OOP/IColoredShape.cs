@@ -6,7 +6,7 @@ namespace FSD_OOP
 {
     public interface IColoredShape : IShape
     {
-        EColors Color { get; set; }
+        Color Color { get; set; }
         List<Point2D> Position { get; set; }
     }
 }

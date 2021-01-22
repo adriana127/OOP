@@ -4,11 +4,8 @@ using System.Text;
 
 namespace FSD_OOP
 {
-    public class EColors
-    {
-        public enum Color
+    public enum Color
         {
             RED, BLACK, GREEN, WHITE, BLUE
         }
-    }
 }

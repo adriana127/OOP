@@ -6,10 +6,13 @@ namespace FSD_OOP
 {
     public class Rectangle : IPolygon
     {
-        public Rectangle(double height, double width)
+        public Rectangle(double height, double width, Color color)
         {
             Height = height;
             Width = width;
+            Color = color;
+
+            TranslateToPoints();
         }
 
         public double Height { get; set; }
@@ -17,8 +20,8 @@ namespace FSD_OOP
 
         public int NumberOfAngles => 4;
 
-        public EColors Color { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public List<Point2D> Position { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Color Color { get; set; }
+        public List<Point2D> Position { get; set; }
 
         public double Area()
         {
@@ -27,17 +30,26 @@ namespace FSD_OOP
 
         public void Draw()
         {
-            Console.WriteLine($"The height is: {Height}, the width is: {Width}");
+            Console.WriteLine(
+                $"The Rectangle is located at: A({Position[0].X},{Position[0].Y}), B({Position[1].X},{Position[1].Y}), C({Position[2].X},{Position[2].Y}), D({Position[3].X},{Position[3].Y}).");
+
+            Console.WriteLine($"The color of the rectangle is: {Color}");
         }
 
         public void Scale(int scaling)
         {
-            throw new NotImplementedException();
+            Height += scaling;
+            Width += scaling;
+            TranslateToPoints();
         }
 
         public void TranslateToPoints()
         {
-            throw new NotImplementedException();
+            Position = new List<Point2D>
+            {
+                new Point2D(0, 0), new Point2D(Height, 0), new Point2D(0, Width), new Point2D(Height, Width)
+            };
+
         }
     }
 }

@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "dSJiMGfiz77vXW48Hfvv5KJpLE7zuNmcxx0T7c/qS+ko5pUTvXesJuZ1D1dt/9bETVOSnU1sIez+ue0LU5wRGg==",
+  "dgSpecHash": "088zDOypvdP+77/1cU/WpYXYD1aUJ+CSh/w6gtB6Xcf0HaG8hTC4l4ygVDlm9+sfn/ZI3AXT1bomTrlhNpkKTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
-=======
-  "dgSpecHash": "dHV5YKAuJA/HxsvBwgK05Wmh9ykF+LJwF78f7lI0k/wZcmC9k/2X+MoPXdsMDW4lHp9RHb93fUb9DAAkc/QttA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
->>>>>>> 2550df128ea3e4c1226147e12df8c7666d23214f
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
