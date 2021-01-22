@@ -6,7 +6,7 @@ namespace FSD_OOP
 {
     public interface IPolygon : IColoredShape
     {
-
+        //salut dode
         int NumberOfAngles { get; }
         void TranslateToPoints();
     }

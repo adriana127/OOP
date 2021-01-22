@@ -8,11 +8,16 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Bogdan\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\mj\\.nuget\\packages\\": {}
+>>>>>>> 2550df128ea3e4c1226147e12df8c7666d23214f
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
       "projectName": "FSD OOP",
       "projectPath": "C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bogdan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
+      "projectName": "FSD OOP",
+      "projectPath": "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
+      "packagesPath": "C:\\Users\\mj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2550df128ea3e4c1226147e12df8c7666d23214f
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
