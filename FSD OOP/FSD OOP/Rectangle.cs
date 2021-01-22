@@ -6,11 +6,6 @@ namespace FSD_OOP
 {
     public class Rectangle : IPolygon
     {
-        private List<String> alphabet = new List<string>()
-        {
-            new StringBuilder("ABCDEFGHIJKLMNOPQRSTUVWXYZ").ToString()
-        };
-
         public Rectangle(double height, double width, Color color)
         {
             Height = height;
@@ -35,12 +30,13 @@ namespace FSD_OOP
 
         public void Draw()
         {
+            String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
             Console.Write("The rectangle has it's corners at: ");
 
             for (int index = 0; index < NumberOfAngles; index++)
             {
-                Console.Write($" {alphabet[index]}({Position[index].X},{Position[index].Y}, ");
+                Console.Write($" {alphabet[index]}({Position[index].X},{Position[index].Y}), ");
             }
 
             Console.WriteLine($"The color of the rectangle is: {Color}");
@@ -59,7 +55,6 @@ namespace FSD_OOP
             {
                 new Point2D(0, 0), new Point2D(Height, 0), new Point2D(0, Width), new Point2D(Height, Width)
             };
-
         }
     }
 }
