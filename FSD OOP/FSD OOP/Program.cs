@@ -6,7 +6,9 @@ namespace FSD_OOP
     {
         static void Main(string[] args)
         {
-            
+            Circle circle = new Circle(4, Color.BLACK);
+
+            circle.Draw();
         }
     }
 }

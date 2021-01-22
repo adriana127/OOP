@@ -7,30 +7,37 @@ namespace FSD_OOP
     public class Circle : IColoredShape
     {
         protected double Radius { get; set; }
-        public Color Color { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public List<Tuple<double, double>> Position { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Color Color { get ; set ; }
 
-        List<Point2D> IColoredShape.Position { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public const double PI = 3.14;
 
-        public void Accept(IVisitor visitor)
+        public List<Point2D> Position { get ; set; }
+
+        public Circle(double radius, Color color)
         {
-            throw new NotImplementedException();
+            Radius = radius;
+            Color = color;
+            Point2D center = new Point2D(radius, radius);
+            Position = new List<Point2D>();
+            Position.Add(center);
         }
 
         public double Area()
         {
-            throw new NotImplementedException();
+            return PI * Radius;
         }
 
         public void Draw()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("The color of the {0} is {1} and it's center is in ({2},{3}) with a radius of {4}",typeof(Circle),Color.ToString(), Position[0].X, Position[0].Y, Radius);
         }
 
 
         public void Scale(int scaling)
         {
-            throw new NotImplementedException();
+            Radius *= scaling;
+            Position.Clear();
+            Position.Add(new Point2D(Radius, Radius));
         }
     }
 }
