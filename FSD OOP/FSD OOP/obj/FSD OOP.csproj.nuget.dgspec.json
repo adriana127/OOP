@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
-        "projectName": "FSD OOP",
-        "projectPath": "C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
-        "packagesPath": "C:\\Users\\Bogdan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bogdan\\Desktop\\PeoplePower\\PeoplePower-poejcts\\OOP\\FSD OOP\\FSD OOP\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Bogdan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
     "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj": {}
   },
   "projects": {
@@ -31,7 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mj\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2550df128ea3e4c1226147e12df8c7666d23214f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -55,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -71,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

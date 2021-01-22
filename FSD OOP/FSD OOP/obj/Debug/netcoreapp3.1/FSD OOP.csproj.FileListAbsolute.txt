@@ -11,3 +11,16 @@ C:\Users\Bogdan\Desktop\PeoplePower\PeoplePower-poejcts\OOP\FSD OOP\FSD OOP\obj\
 C:\Users\Bogdan\Desktop\PeoplePower\PeoplePower-poejcts\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.dll
 C:\Users\Bogdan\Desktop\PeoplePower\PeoplePower-poejcts\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.pdb
 C:\Users\Bogdan\Desktop\PeoplePower\PeoplePower-poejcts\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.genruntimeconfig.cache
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\bin\Debug\netcoreapp3.1\FSD OOP.exe
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\bin\Debug\netcoreapp3.1\FSD OOP.deps.json
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\bin\Debug\netcoreapp3.1\FSD OOP.runtimeconfig.json
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\bin\Debug\netcoreapp3.1\FSD OOP.runtimeconfig.dev.json
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\bin\Debug\netcoreapp3.1\FSD OOP.dll
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\bin\Debug\netcoreapp3.1\FSD OOP.pdb
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.csprojAssemblyReference.cache
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.AssemblyInfoInputs.cache
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.AssemblyInfo.cs
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.csproj.CoreCompileInputs.cache
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.dll
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.pdb
+C:\Users\mj\source\repos\FutureSmellDay\OOP\FSD OOP\FSD OOP\obj\Debug\netcoreapp3.1\FSD OOP.genruntimeconfig.cache

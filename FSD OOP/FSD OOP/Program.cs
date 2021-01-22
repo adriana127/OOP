@@ -11,6 +11,8 @@ namespace FSD_OOP
             square.Draw();
 
             Console.ReadLine();
+
+
         }
     }
 }
