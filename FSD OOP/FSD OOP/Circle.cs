@@ -8,8 +8,6 @@ namespace FSD_OOP
         protected double Radius { get; set; }
         public Color Color { get; set; }
 
-        public const double Pi = 3.14;
-
         public List<Point2D> Position { get; set; }
 
         public Circle(double radius, Color color)
@@ -22,7 +20,7 @@ namespace FSD_OOP
 
         public double Area()
         {
-            return Pi * Radius;
+            return Math.PI * (Radius*Radius);
         }
 
         public void Draw()

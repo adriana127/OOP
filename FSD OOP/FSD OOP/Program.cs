@@ -47,14 +47,14 @@ namespace FSD_OOP
                                 case "2":
                                     {
                                         Console.Write("Dimension");
-                                        double height = Console.Read();
+                                        double height = Double.Parse(Console.ReadLine() ?? string.Empty);
                                         shapesList.Add(new Square(height, Color.Blue));
                                         break;
                                     }
                                 case "3":
                                     {
                                         Console.Write("Radius");
-                                        double radius = Console.Read();
+                                        double radius = Double.Parse(Console.ReadLine() ?? string.Empty);
                                         shapesList.Add(new Circle(radius, Color.Green));
                                         break;
                                     }
@@ -80,7 +80,11 @@ namespace FSD_OOP
 
                                         double y3 = Double.Parse(Console.ReadLine() ?? string.Empty);
 
-                                        shapesList.Add(new Triangle(new Point2D(x1, y1), new Point2D(x2, y2), new Point2D(x3, y3), Color.Red));
+                                        var p1 = new Point2D(x1,y1);
+                                        var p2 = new Point2D(x2,y2);
+                                        var p3 = new Point2D(x3,y3);
+
+                                        shapesList.Add(new Triangle(p1,p2,p3, Color.Red));
                                         break;
                                     }
                             }
@@ -92,9 +96,23 @@ namespace FSD_OOP
                             visitor = new Visitor();
                             GetComponent(shapesList, visitor);
                             visitor.CreateReport();
+
+                            foreach (var shape in shapesList)
+                            {
+                                Console.WriteLine("-----------------------------------------------------");
+                                Console.WriteLine($"Name: {shape.GetType().Name}");
+                                Console.WriteLine($"Area: {shape.Area()}");
+                                shape.Draw();
+                                Console.WriteLine("Add 3 at Scale.");
+                                shape.Scale(3);
+                                shape.Draw();
+
+                                Console.WriteLine();
+                                Console.WriteLine();
+                            }
+
                             break;
                         }
-
                 }
             }
         }

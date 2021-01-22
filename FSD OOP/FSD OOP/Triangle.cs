@@ -13,7 +13,6 @@ namespace FSD_OOP
             Position.Add(x2);
             Position.Add(x3);
             Color = color;
-            TranslateToPoints();
         }
 
         public int NumberOfAngles => 3;
@@ -55,10 +54,7 @@ namespace FSD_OOP
 
         public void TranslateToPoints()
         {
-            Position = new List<Point2D>
-            {
-                new Point2D(0, 0), new Point2D(1, 0), new Point2D(0, 1)
-            };
+            
         }
         public void Accept(IVisitor visitor)
         {
