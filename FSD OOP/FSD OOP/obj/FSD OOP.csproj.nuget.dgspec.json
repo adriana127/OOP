@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ast\\source\\repos\\FSD OOP\\FSD OOP\\FSD OOP.csproj": {}
+    "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ast\\source\\repos\\FSD OOP\\FSD OOP\\FSD OOP.csproj": {
+    "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ast\\source\\repos\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
+        "projectUniqueName": "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
         "projectName": "FSD OOP",
-        "projectPath": "C:\\Users\\ast\\source\\repos\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
-        "packagesPath": "C:\\Users\\ast\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ast\\source\\repos\\FSD OOP\\FSD OOP\\obj\\",
+        "projectPath": "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\FSD OOP.csproj",
+        "packagesPath": "C:\\Users\\mj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mj\\source\\repos\\FutureSmellDay\\OOP\\FSD OOP\\FSD OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ast\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
