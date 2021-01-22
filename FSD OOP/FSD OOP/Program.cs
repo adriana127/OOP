@@ -14,69 +14,91 @@ namespace FSD_OOP
         }
         public static List<IColoredShape> CreateShapes()
         {
-
             return new List<IColoredShape> { new Circle(3, Color.Black), new Rectangle(3, 5, Color.Black), new Square(4, Color.Black) };
         }
         static void Main(string[] args)
         {
             Visitor visitor = new Visitor();
-            List<IColoredShape> shapesList = CreateShapes();
+            List<IColoredShape> shapesList = new List<IColoredShape>(); // CreateShapes();
 
-
-
-            Console.WriteLine("1.Create new shape.\n2.Get report.");
-            var response = Console.ReadLine();
-            switch (response)
+            while (true)
             {
-                case "1":
-                    {
-                        Console.WriteLine("Create:\n1.Rectangle\n2.Square\n3.Circle\n4.Triangle ");
-                        var shapeType = Console.ReadLine();
-                        switch (shapeType)
+                Console.WriteLine("1.Create new shape.\n2.Get report.");
+                var response = Console.ReadLine();
+
+                switch (response)
+                {
+                    case "1":
                         {
-                            case "1":
-                                {
-                                    Console.Write("Height");
-                                    var height = Double.Parse(Console.ReadLine() ?? string.Empty);
-                                    Console.Write("Width");
-                                    var width = Double.Parse(Console.ReadLine() ?? string.Empty);
+                            Console.WriteLine("Create:\n1.Rectangle\n2.Square\n3.Circle\n4.Triangle ");
+                            var shapeType = Console.ReadLine();
+                            switch (shapeType)
+                            {
+                                case "1":
+                                    {
+                                        Console.Write("Height");
+                                        double height = Double.Parse(Console.ReadLine() ?? string.Empty);
+                                        Console.Write("Width");
+                                        double width = Double.Parse(Console.ReadLine() ?? string.Empty);
 
-                                    shapesList.Add(new Rectangle(height, width, Color.Black));
-                                    break;
-                                }
-                            case "2":
-                                {
-                                    Console.Write("Dimension");
-                                    var height = Double.Parse(Console.ReadLine() ?? string.Empty);
-                                    shapesList.Add(new Square(height, Color.Black));
-                                    break;
-                                }
-                            case "3":
-                                {
-                                    Console.Write("Radius");
-                                    var radius = Double.Parse(Console.ReadLine() ?? string.Empty);
-                                    shapesList.Add(new Circle(radius, Color.Black));
-                                    break;
-                                }
-                                //case 4:
-                                // {​​
-                                // Console.Write("Radius");
-                                // double height = Console.Read();
-                                // shapesList.Add(new Circle(height));
-                                // break;
-                                // }​​
+                                        shapesList.Add(new Rectangle(height, width, Color.Black));
+                                        break;
+                                    }
+                                case "2":
+                                    {
+                                        Console.Write("Dimension");
+                                        double height = Console.Read();
+                                        shapesList.Add(new Square(height, Color.Blue));
+                                        break;
+                                    }
+                                case "3":
+                                    {
+                                        Console.Write("Radius");
+                                        double radius = Console.Read();
+                                        shapesList.Add(new Circle(radius, Color.Green));
+                                        break;
+                                    }
+                                case "4":
+                                    {
+                                        Console.Write("Left Corner: x1=");
+                                        double x1 = Double.Parse(Console.ReadLine() ?? string.Empty);
+                                        Console.Write("y1=");
+
+                                        double y1 = Double.Parse(Console.ReadLine() ?? string.Empty);
+
+
+                                        Console.Write("Right Corner: x2=");
+                                        double x2 = Double.Parse(Console.ReadLine() ?? string.Empty);
+                                        Console.Write("y2=");
+
+                                        double y2 = Double.Parse(Console.ReadLine() ?? string.Empty);
+
+
+                                        Console.Write("Last Corner: x3=");
+                                        double x3 = Double.Parse(Console.ReadLine() ?? string.Empty);
+                                        Console.Write("y3=");
+
+                                        double y3 = Double.Parse(Console.ReadLine() ?? string.Empty);
+
+                                        shapesList.Add(new Triangle(new Point2D(x1, y1), new Point2D(x2, y2), new Point2D(x3, y3), Color.Red));
+                                        break;
+                                    }
+                            }
+                            break;
                         }
-                    }
-                    break;
-                case "2":
-                    {
-                        Program.GetComponent(shapesList, visitor);
-                        visitor.CreateReport();
-                        break;
-                    }
-            }
 
-            Console.ReadLine();
+                    case "2":
+                        {
+                            visitor = new Visitor();
+                            GetComponent(shapesList, visitor);
+                            visitor.CreateReport();
+                            break;
+                        }
+
+                }
+            }
         }
+
+
     }
 }

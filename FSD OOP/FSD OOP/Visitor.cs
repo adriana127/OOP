@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace FSD_OOP
 {
@@ -7,6 +9,7 @@ namespace FSD_OOP
         public int NoCircles = 0;
         public int NoRectangle = 0;
         public int NoSquare = 0;
+        public int NoTriangles = 0;
 
         public void VisitCircle(Circle circle)
         {
@@ -22,7 +25,10 @@ namespace FSD_OOP
         {
             NoSquare++;
         }
-
+        public void VisitTriangle(Triangle triangle)
+        {
+            NoTriangles++;
+        }
         public void GetNumberOfCircles()
         {
             Console.WriteLine("Number of circles: " + NoCircles);
@@ -37,12 +43,17 @@ namespace FSD_OOP
         {
             Console.WriteLine("Number of squares: " + NoSquare);
         }
+        public void GetNoTriangles()
+        {
+            Console.WriteLine("Number of triangles: " + NoTriangles);
+        }
 
         public void CreateReport()
         {
             GetNumberOfCircles();
             GetNoRectangle();
             GetNoSquare();
+            GetNoTriangles();
         }
     }
 }

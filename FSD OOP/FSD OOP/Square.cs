@@ -23,7 +23,7 @@ namespace FSD_OOP
             Console.WriteLine($"The color of the rectangle is: {Color}");
         }
 
-        public new void Accept(IVisitor visitor)
+        public override void Accept(IVisitor visitor)
         {
             visitor.VisitSquare(this);
         }
