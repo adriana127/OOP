@@ -7,7 +7,7 @@ namespace FSD_OOP
     public class Circle : IColoredShape
     {
         protected double Radius { get; set; }
-        public EColors Color { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Color Color { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public List<Tuple<double, double>> Position { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         List<Point2D> IColoredShape.Position { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
